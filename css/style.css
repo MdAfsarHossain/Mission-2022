@@ -80,3 +80,64 @@
 .banner-img img {
   width: 100%;
 }
+
+/* My Mission */
+.mission {
+  width: 100%;
+  padding: 80px 0px;
+}
+
+.mission-container {
+  width: 1070px;
+  margin: 0 auto;
+}
+
+.mission-title {
+  text-align: center;
+  font-size: 46px;
+  margin-bottom: 45px;
+}
+
+.mission-title span {
+  color: sandybrown;
+}
+
+.mission-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 30px 0px;
+}
+
+.mission-card {
+  padding: 20px 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mission-card img {
+  width: 50%;
+}
+
+.mission-card-title {
+  font-size: 22px;
+}
+
+.mission-card-description {
+  color: gray;
+}
+
+.mission-card-1 {
+  background-color: rgb(187, 212, 223);
+}
+
+.mission-card-2 {
+  background-color: rgb(250, 213, 209);
+}
+
+.mission-card-3 {
+  background-color: rgb(243, 224, 208);
+}
