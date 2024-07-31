@@ -300,3 +300,32 @@
 .application-content-description {
   width: 85%;
 }
+
+/* Footer */
+.footer {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  padding: 70px 0px;
+}
+
+@font-face {
+  font-family: miami;
+  src: url("../font/Real\ Miami.ttf") format("truetype");
+}
+
+.footer-title {
+  color: white;
+  font-size: 46px;
+  margin-bottom: 10px;
+  font-family: miami;
+  font-weight: 400;
+}
+
+.footer-title span {
+  color: tomato;
+}
+
+.footer-description {
+  color: gray;
+}
