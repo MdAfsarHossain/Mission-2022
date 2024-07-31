@@ -185,3 +185,48 @@
 .develop-content-description {
   width: 80%;
 }
+
+/* Global */
+.global {
+  width: 100%;
+  padding: 80px 0px;
+  background-image: url("../images/shapes/shape-1.png");
+  background-repeat: no-repeat;
+  background-position-x: 1140px;
+  background-position-y: 380px;
+  background-size: 10%;
+}
+
+.global-container {
+  width: 1070px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.global-img {
+  width: 80%;
+}
+
+.global-img img {
+  width: 100%;
+}
+
+.global-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.global-content-title {
+  font-size: 42px;
+}
+
+.global-content-description {
+  width: 80%;
+}
