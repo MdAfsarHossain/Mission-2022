@@ -141,3 +141,47 @@
 .mission-card-3 {
   background-color: rgb(243, 224, 208);
 }
+
+/* Develop */
+.develop {
+  width: 100%;
+  padding: 80px 0px;
+  background-image: url("../images/shapes/shape-1.png");
+  background-repeat: no-repeat;
+  background-position: 40px;
+  background-size: 18%;
+}
+
+.develop-container {
+  width: 1070px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.develop-img {
+  width: 80%;
+}
+
+.develop-img img {
+  width: 100%;
+}
+
+.develop-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.develop-content-title {
+  font-size: 42px;
+}
+
+.develop-content-description {
+  width: 80%;
+}
