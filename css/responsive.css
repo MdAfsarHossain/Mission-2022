@@ -87,3 +87,119 @@
 
   /* Footer */
 }
+
+/* Tablet Device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  /* Header */
+  .header {
+    height: 100%;
+  }
+
+  /* Banner */
+  .banner-container {
+    width: 90%;
+    flex-direction: row;
+  }
+
+  .banner-content {
+    width: 100%;
+    padding: 50px 0px;
+  }
+
+  .banner-description {
+    width: 100%;
+  }
+
+  .banner-img {
+    width: 100%;
+  }
+
+  /* Mission */
+  .mission-title {
+    font-size: 40px;
+  }
+
+  .mission-container {
+    width: 90%;
+  }
+
+  .mission-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+  }
+
+  /* Develop */
+  .develop {
+    background-position-x: 50px;
+  }
+
+  .develop-container {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .develop-img {
+    width: 75%;
+  }
+
+  .develop-content-description {
+    width: 60%;
+  }
+
+  /* Global */
+  .global-container {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .global-img {
+    width: 75%;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .global-content-description {
+    width: 60%;
+  }
+
+  /* Application */
+  .application {
+    background-size: 15%;
+    background-position-x: 35px;
+    background-position-y: 930px;
+  }
+
+  .application-title {
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+
+  .application-container {
+    width: 90%;
+    flex-direction: column;
+    background-size: 15%;
+    background-position-x: 385px;
+  }
+
+  .application-content {
+    margin-top: 30px;
+  }
+
+  .application-img {
+    padding-left: 0px;
+    background-position-x: 5px;
+  }
+
+  .application-img img {
+    width: 70%;
+  }
+
+  .application-content-description {
+    width: 70%;
+  }
+}
